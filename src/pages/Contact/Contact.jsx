@@ -47,7 +47,7 @@ const Contact = () => {
               Email Manzil:
             </p>
             <p className='pl-3 text-xl'>
-              Fghjkjhgf@gmail.com
+              info@tuitkf.uz
             </p>
           </div>
         </div>
