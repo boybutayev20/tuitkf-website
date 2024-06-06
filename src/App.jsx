@@ -5,6 +5,7 @@ import About from './pages/about/About'
 import Portfolio from './pages/Portfolio/Portfolio'
 import Header from './sections/header/header'
 import { Footer } from 'flowbite-react'
+import Contact from './pages/Contact/Contact'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/contact' element={<Contact />} />
         
 
       </Routes>
