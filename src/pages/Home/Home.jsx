@@ -1,14 +1,12 @@
 import React from 'react'
-import Header from '../../sections/header/header'
+import Header from '../../components/header/header'
+import Footer from '../../components/footer/Footer'
 import Hero from '../../sections/hero/Hero'
-import { Footer } from 'flowbite-react'
 
 const Home = () => {
     return (
         <div>
-           
-            <Hero />
-            <Footer />
+            <Hero/>
         </div>
     )
 }
